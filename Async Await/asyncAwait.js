@@ -32,7 +32,7 @@ const urls = [
   console.log("albums", albums);
 }; */
 
-// modified answer
+  //modified answer
 const getData = async function () {
   const [users, posts, albums] =
     await Promise.all(
